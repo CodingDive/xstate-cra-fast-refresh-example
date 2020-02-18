@@ -1,0 +1,48 @@
+{
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject",
+    "start": "react-app-rewired start"
+  },
+  "dependencies": {
+    "@xstate/react": "0.8.1",
+    "classnames": "latest",
+    "react": "16.12.0",
+    "react-app-rewired": "2.1.5",
+    "react-dom": "16.12.0",
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.0",
+    "uuid-v4": "0.1.0",
+    "xstate": "4.7.8"
+  },
+  "keywords": [
+    "hooks",
+    "statechart",
+    "state machine",
+    "xstate",
+    "react"
+  ],
+  "name": "xstate-todomvc",
+  "description": "The TodoMVC app implemented with React (using hooks) and XState version 4.",
+  "version": "0.0.0",
+  "devDependencies": {
+    "react-scripts": "3.4.0",
+    "customize-cra-react-refresh": "1.0.1",
+    "customize-cra": "0.9.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
